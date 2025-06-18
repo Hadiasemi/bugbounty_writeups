@@ -1,0 +1,60 @@
+{
+  "basic_statistics": {
+    "total_reports": 467,
+    "total_bounty": 1149035.5,
+    "average_bounty": 2460.461456102784
+  },
+  "distributions": {
+    "id_type": {
+      "Decimal shorter than 8 digits": 263,
+      "Decimal 8 or more digits": 146,
+      "unknown": 56,
+      "UUID": 2
+    },
+    "impact": {
+      "Reading data": 231,
+      "Account Takeover": 176,
+      "unknown": 56,
+      "Deleting data": 2,
+      "Executing Actions": 2
+    },
+    "functionality": {
+      "Creating/Modifying/Deleting Data": 359,
+      "unknown": 56,
+      "Reading Private Data": 52
+    },
+    "prediction_method": {
+      "Public ID": 271,
+      "unknown": 56,
+      "Bruteforce": 55,
+      "Integer enumeration": 43,
+      "Information Disclosure": 32,
+      "Signing Oracle": 10
+    },
+    "parameter_location": {
+      "URL Path": 211,
+      "HTTP Body": 149,
+      "unknown": 56,
+      "Cookie": 34,
+      "Query Parameter": 17
+    }
+  },
+  "bounty_by_id_type": {
+    "Decimal 8 or more digits": {
+      "NO reports": 146,
+      "AVG Bounty": 4662.511643835616
+    },
+    "Decimal shorter than 8 digits": {
+      "NO reports": 263,
+      "AVG Bounty": 1416.1395437262358
+    },
+    "UUID": {
+      "NO reports": 2,
+      "AVG Bounty": 1750.0
+    },
+    "unknown": {
+      "NO reports": 56,
+      "AVG Bounty": 1649.3589285714286
+    }
+  }
+}

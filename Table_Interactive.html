@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CSV Analysis Dashboard</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tabulator CSS for the interactive table -->
+    <link href="https://unpkg.com/tabulator-tables@5.6.1/dist/css/tabulator_modern.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style for the file input */
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .file-input-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+        .file-input-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background-color: #4f46e5;
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+        .file-input-button:hover {
+            background-color: #4338ca;
+        }
+        /* Custom Tabulator header styling */
+        .tabulator-header {
+            background-color: #f9fafb;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        .tabulator-col-title {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        .tabulator-row {
+            transition: background-color 0.1s;
+        }
+        .tabulator-row:hover {
+            background-color: #f3f4f6;
+        }
+        .tabulator-header-filter input, .tabulator-header-filter select {
+            border-radius: 0.375rem;
+            border: 1px solid #d1d5db;
+            padding: 0.25rem 0.5rem;
+        }
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Interactive CSV Analysis Dashboard</h1>
+            <p class="text-lg text-gray-600 mt-2">Upload any CSV file to begin analysis.</p>
+        </header>
+
+        <!-- File Upload Section -->
+        <div class="flex justify-center mb-8">
+            <div class="file-input-wrapper">
+                <button class="file-input-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    Upload CSV
+                </button>
+                <input type="file" id="csv-file-input" accept=".csv">
+            </div>
+        </div>
+
+        <!-- Interactive Table Container -->
+        <div id="interactive-table-container" class="bg-white p-4 rounded-lg shadow-md overflow-x-auto">
+            <div id="interactive-table"></div>
+            <div id="table-placeholder" class="text-center text-gray-500 py-20">
+                <p>Please upload a CSV file to display the data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabulator and Papaparse JS Libraries -->
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.6.1/dist/js/tabulator.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <script>
+        // Tabulator table instance
+        let table = null;
+
+        // Custom filter function for numeric ranges and operators
+        function numberFilter(headerValue, rowValue, rowData, filterParams) {
+            if (headerValue === null || headerValue.trim() === "") {
+                return true; // Show all if filter is empty
+            }
+
+            // Clean the cell value to get a number
+            let cleanRowValue = String(rowValue).replace(/[^0-9.-]+/g, "");
+            let value = parseFloat(cleanRowValue);
+            if (isNaN(value)) return false;
+
+            let filter = headerValue.trim();
+
+            // Range filter (e.g., 1000..5000)
+            if (filter.includes('..')) {
+                let [min, max] = filter.split('..').map(n => parseFloat(n.trim()));
+                if (!isNaN(min) && !isNaN(max)) return value >= min && value <= max;
+                return false;
+            }
+            // Comparison filters (e.g., >=1000)
+            if (filter.startsWith('>=')) return value >= parseFloat(filter.substring(2));
+            if (filter.startsWith('<=')) return value <= parseFloat(filter.substring(2));
+            if (filter.startsWith('>')) return value > parseFloat(filter.substring(1));
+            if (filter.startsWith('<')) return value < parseFloat(filter.substring(1));
+            if (filter.startsWith('=')) return value === parseFloat(filter.substring(1));
+            
+            // Default to equals if no operator
+            return value === parseFloat(filter);
+        }
+
+        // File input handler
+        const fileInput = document.getElementById('csv-file-input');
+        const tablePlaceholder = document.getElementById('table-placeholder');
+
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                tablePlaceholder.textContent = 'Loading data...';
+                
+                Papa.parse(file, {
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: (results) => {
+                        if (results.data.length === 0 || !results.meta.fields) {
+                            tablePlaceholder.textContent = 'Could not parse CSV or file is empty.';
+                            return;
+                        }
+
+                        tablePlaceholder.style.display = 'none';
+                        
+                        // Dynamically generate column definitions from CSV headers
+                        const columns = results.meta.fields.map(field => {
+                            const fieldLower = field.toLowerCase();
+                            
+                            // Special handling for 'Bounty' column
+                            if (fieldLower === 'bounty') {
+                                return {
+                                    title: field,
+                                    field: field,
+                                    sorter: "number",
+                                    headerFilter: "input",
+                                    headerFilterFunc: numberFilter,
+                                    headerFilterPlaceholder: "e.g., >1000 or 500..2000",
+                                    minWidth: 150,
+                                    formatter: "money",
+                                    formatterParams: { decimal: ".", thousand: ",", symbol: "$" }
+                                };
+                            }
+
+                            // Special handling for 'URL' column
+                            if (fieldLower === 'url' || fieldLower === 'link' || fieldLower === 'href') {
+                                return {
+                                    title: field,
+                                    field: field,
+                                    headerFilter: "input",
+                                    minWidth: 200,
+                                    formatter: "link", // Use the link formatter
+                                    formatterParams: {
+                                        labelField: field,
+                                        urlField: field,
+                                        target: "_blank",
+                                    }
+                                };
+                            }
+
+                            // Default handling for other columns
+                            const uniqueValues = ["", ...new Set(results.data.map(row => row[field]).filter(val => val !== null && val !== undefined))];
+                            
+                            return {
+                                title: field,
+                                field: field,
+                                headerFilter: "select",
+                                headerFilterParams: { values: uniqueValues },
+                                minWidth: 150,
+                                formatter: "textarea"
+                            };
+                        });
+
+                        // Initialize the interactive table
+                        if (table) table.destroy();
+                        table = new Tabulator("#interactive-table", {
+                            data: results.data,
+                            layout: "fitColumns", // Changed layout for better fitting
+                            pagination: "local",
+                            paginationSize: 20,
+                            paginationSizeSelector: [10, 20, 50, 100],
+                            columns: columns,
+                        });
+                    },
+                    error: (error) => {
+                        tablePlaceholder.textContent = `Error parsing CSV: ${error.message}`;
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

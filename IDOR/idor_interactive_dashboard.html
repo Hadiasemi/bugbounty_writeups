@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive IDOR Vulnerability Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .chart-container {
+            border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: all 0.2s ease-in-out; display: flex; flex-direction: column; justify-content: center;
+        }
+        .chart-container:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1); }
+    </style>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">IDOR Vulnerability Analysis</h1>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 chart-container"><div id="chart-id-type" class="w-full h-96"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-impact" class="w-full h-96"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-functionality" class="w-full h-96"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-prediction" class="w-full h-96"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-location" class="w-full h-96"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-avg-bounty" class="w-full h-96"></div></div>
+        </div>
+    </div>
+    <script>
+        const analysisData = JSON.parse(`{"basic_statistics": {"total_reports": 467, "total_bounty": 1149035.5, "average_bounty": 2460.461456102784}, "distributions": {"id_type": {"Decimal shorter than 8 digits": 263, "Decimal 8 or more digits": 146, "unknown": 56, "UUID": 2}, "impact": {"Reading data": 231, "Account Takeover": 176, "unknown": 56, "Deleting data": 2, "Executing Actions": 2}, "functionality": {"Creating/Modifying/Deleting Data": 359, "unknown": 56, "Reading Private Data": 52}, "prediction_method": {"Public ID": 271, "unknown": 56, "Bruteforce": 55, "Integer enumeration": 43, "Information Disclosure": 32, "Signing Oracle": 10}, "parameter_location": {"URL Path": 211, "HTTP Body": 149, "unknown": 56, "Cookie": 34, "Query Parameter": 17}}, "bounty_by_id_type": {"Decimal 8 or more digits": {"NO reports": 146, "AVG Bounty": 4662.511643835616}, "Decimal shorter than 8 digits": {"NO reports": 263, "AVG Bounty": 1416.1395437262358}, "UUID": {"NO reports": 2, "AVG Bounty": 1750.0}, "unknown": {"NO reports": 56, "AVG Bounty": 1649.3589285714286}}}`);
+        function processChartData(dataObject, filterUnknown = true) {
+            let data = { ...dataObject };
+            if (filterUnknown && data.unknown) delete data.unknown;
+            const sortedArray = Object.entries(data).sort(([, a], [, b]) => a - b);
+            return { labels: sortedArray.map(item => item[0]), values: sortedArray.map(item => item[1]) };
+        }
+        const commonLayout = { margin: { l: 250, r: 20, t: 80, b: 50 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', font: { family: 'Inter, sans-serif', color: '#374151' }, title: { font: { size: 18 } } };
+        const pieLayout = { ...commonLayout, margin: { l: 20, r: 20 }, legend: { x: 1, y: 0.5, xanchor: 'left' } };
+        
+        const idTypeData = processChartData(analysisData.distributions.id_type);
+        Plotly.newPlot('chart-id-type', [{ x: idTypeData.values, y: idTypeData.labels, type: 'bar', orientation: 'h', marker: { color: 'rgba(79, 70, 229, 0.8)' } }], { ...commonLayout, title: 'Vulnerable ID Types' }, {responsive: true});
+        
+        const impactData = processChartData(analysisData.distributions.impact);
+        Plotly.newPlot('chart-impact', [{ x: impactData.values, y: impactData.labels, type: 'bar', orientation: 'h', marker: { color: 'rgba(219, 39, 119, 0.8)' } }], { ...commonLayout, title: 'Impact of IDOR' }, {responsive: true});
+        
+        const funcData = processChartData(analysisData.distributions.functionality);
+        Plotly.newPlot('chart-functionality', [{ x: funcData.values, y: funcData.labels, type: 'bar', orientation: 'h', marker: { color: 'rgba(34, 197, 94, 0.8)' } }], { ...commonLayout, title: 'Vulnerable Functionality' }, {responsive: true});
+        
+        const predData = processChartData(analysisData.distributions.prediction_method);
+        Plotly.newPlot('chart-prediction', [{ x: predData.values, y: predData.labels, type: 'bar', orientation: 'h', marker: { color: 'rgba(245, 158, 11, 0.8)' } }], { ...commonLayout, title: 'ID Prediction Methods' }, {responsive: true});
+
+        const locationData = processChartData(analysisData.distributions.parameter_location);
+        Plotly.newPlot('chart-location', [{ values: locationData.values, labels: locationData.labels, type: 'pie', hole: .4, textinfo: 'percent+label' }], { ...pieLayout, title: 'Parameter Location', showlegend: false }, {responsive: true});
+
+        const bountyData = processChartData(Object.fromEntries(Object.entries(analysisData.bounty_by_id_type).map(([k, v]) => [k, v['AVG Bounty']])));
+        Plotly.newPlot('chart-avg-bounty', [{ x: bountyData.values, y: bountyData.labels, type: 'bar', orientation: 'h', marker: { color: 'rgba(14, 165, 233, 0.8)' }, text: bountyData.values.map(v => `$${v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`), textposition: 'inside' }], { ...commonLayout, title: 'Average Bounty by ID Type', xaxis: { title: 'Average Bounty ($)'}}, {responsive: true});
+    </script>
+</body>
+</html>
+        

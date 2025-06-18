@@ -1,0 +1,60 @@
+{
+  "basic_statistics": {
+    "total_reports": 243,
+    "total_bounty": 13755.0,
+    "average_bounty": 56.60493827160494
+  },
+  "distributions": {
+    "functionality": {
+      "account management": 181,
+      "unknown": 36,
+      "content management": 23,
+      "social actions": 2,
+      "e-commerce": 1
+    },
+    "impact": {
+      "account takeover": 115,
+      "unauthorized actions": 85,
+      "unknown": 31,
+      "information disclosure": 9,
+      "privilege escalation": 3
+    },
+    "impact_severity": {
+      "critical": 156,
+      "medium": 33,
+      "unknown": 31,
+      "high": 15,
+      "low": 8
+    },
+    "anti_csrf_bypass": {
+      "no token": 118,
+      "samesite cookie bypass": 41,
+      "json-based csrf": 36,
+      "unknown": 31,
+      "referer validation bypass": 12,
+      "token validation bypass": 3,
+      "token exposed in url": 1,
+      "custom header bypass": 1
+    },
+    "request_method": {
+      "POST": 191,
+      "unknown": 31,
+      "GET": 16,
+      "PUT": 3,
+      "DELETE": 2
+    }
+  },
+  "key_insights": {
+    "most_common_vulnerable_functionality": "account management",
+    "most_common_impact": "account takeover",
+    "most_common_bypass": "no token"
+  },
+  "security_recommendations": [
+    "Always use and validate anti-CSRF tokens for all state-changing requests.",
+    "Primary focus should be on implementing anti-CSRF tokens where they are missing.",
+    "Implement the SameSite=Strict or SameSite=Lax cookie attribute for session cookies.",
+    "For APIs, consider using custom request headers (e.g., X-Requested-With) as a defense-in-depth measure.",
+    "Ensure tokens are not leaked in URLs or server logs.",
+    "Use the double-submit cookie pattern if maintaining server-side state for tokens is not feasible."
+  ]
+}

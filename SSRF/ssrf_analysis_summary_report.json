@@ -1,0 +1,43 @@
+{
+  "basic_statistics": {
+    "total_reports": 298,
+    "total_bounty": 864442.2,
+    "average_bounty": 2900.8127516778522
+  },
+  "distributions": {
+    "functionality": {
+      "import by url": 114,
+      "cloud services": 38,
+      "pdf generation": 30,
+      "unknown": 29,
+      "file upload": 27,
+      "email/notification": 17,
+      "image processing": 11,
+      "proxy/redirect": 8,
+      "monitoring": 8,
+      "webhook": 5,
+      "feed reader": 4,
+      "url preview": 3,
+      "api integration": 2,
+      "oauth/auth": 2
+    },
+    "impact": {
+      "rce": 195,
+      "information disclosure": 35,
+      "unknown": 25,
+      "credential theft": 19,
+      "internal network access": 14,
+      "cloud metadata": 8,
+      "data exfiltration": 1,
+      "file system access": 1
+    },
+    "bypass_methods": {
+      "redirect": 164,
+      "ip bypass": 81,
+      "no address bypass necessary": 23,
+      "iframe embedding": 20,
+      "dns rebinding": 5,
+      "protocol bypass": 5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "statistics": {
+    "total_reports_analyzed": 41
+  },
+  "distributions": {
+    "smuggling_type": {
+      "CL.TE": 27,
+      "HTTP/2 Downgrade": 9,
+      "unknown": 3,
+      "TE.CL": 2
+    },
+    "desync_impact": {
+      "Bypass Security Controls/WAF": 18,
+      "Cache Poisoning/Deception": 7,
+      "Stored XSS": 6,
+      "Account Takeover": 5,
+      "unknown": 3,
+      "Session Hijacking/Request Capture": 1,
+      "Internal SSRF": 1
+    },
+    "vulnerable_component": {
+      "Front-End Proxy (General)": 36,
+      "unknown": 3,
+      "Apache": 1,
+      "Akamai": 1
+    },
+    "impact_severity": {
+      "critical": 32,
+      "high": 5,
+      "unknown": 3,
+      "low": 1
+    }
+  },
+  "key_insights": {
+    "most_common_technique": "CL.TE",
+    "most_severe_impact": "Bypass Security Controls/WAF",
+    "most_implicated_component": "Front-End Proxy (General)"
+  },
+  "security_recommendations": [
+    "Normalize ambiguous requests at the front-end proxy to prevent interpretation differences.",
+    "Use HTTP/2 end-to-end and disable HTTP downgrade capabilities if possible.",
+    "Reject requests containing both 'Content-Length' and 'Transfer-Encoding' headers.",
+    "Ensure the front-end and back-end servers have identical timeout settings to prevent sockets from being poisoned and reused.",
+    "Regularly audit front-end proxy configurations for any non-standard behavior that could be abused."
+  ]
+}

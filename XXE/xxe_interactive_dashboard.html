@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive XXE Vulnerability Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <style> body { font-family: 'Inter', sans-serif; } .chart-container { border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); transition: all 0.2s ease-in-out; } .chart-container:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1); } </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto p-8">
+        <header class="text-center mb-10"><h1 class="text-4xl font-bold">XXE Vulnerability Analysis</h1></header>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 chart-container"><div id="chart-xxe-type"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-impact"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-functionality"></div></div>
+            <div class="bg-white p-6 chart-container"><div id="chart-bypass"></div></div>
+        </div>
+    </div>
+    <script>
+        const analysisData = JSON.parse(`{"basic_statistics": {"total_reports": 75, "total_bounty": 339100.0, "average_bounty": 4521.333333333333}, "distributions": {"xxe_type": {"Classic (Local File Read)": 27, "Blind XXE": 16, "OOB XXE": 11, "Billion Laughs (DoS)": 5, "Error-Based XXE": 2}, "impact": {"Information Disclosure (LFI)": 38, "Server-Side Request Forgery (SSRF)": 10, "Denial of Service (DoS)": 8, "Remote Code Execution (RCE)": 5}, "functionality": {"File Upload (XML/Office Docs)": 34, "API Endpoint (XML Body)": 26, "Document Processing": 1}, "bypass_method": {"Parameter Entities": 36, "Protocol Handlers (e.g., file://)": 14, "No Bypass Needed": 10, "CDATA Sections": 1}}}`);
+        function processChartData(dataObject) {
+            // The JSON is already filtered, so no need to filter for 'unknown' here
+            const sortedArray = Object.entries(dataObject).sort(([, a], [, b]) => a - b);
+            return { labels: sortedArray.map(item => item[0]), values: sortedArray.map(item => item[1]) };
+        }
+        const layout = (title) => ({ title, margin: { l: 250, r: 20, t: 80, b: 50 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', font: { family: 'Inter', color: '#374151' } });
+        
+        const xxeTypeData = processChartData(analysisData.distributions.xxe_type);
+        Plotly.newPlot('chart-xxe-type', [{ x: xxeTypeData.values, y: xxeTypeData.labels, type: 'bar', orientation: 'h', marker: {color: 'rgba(79, 70, 229, 0.8)'} }], layout('XXE Types'));
+        
+        const impactData = processChartData(analysisData.distributions.impact);
+        Plotly.newPlot('chart-impact', [{ x: impactData.values, y: impactData.labels, type: 'bar', orientation: 'h', marker: {color: 'rgba(219, 39, 119, 0.8)'} }], layout('Impact of XXE'));
+        
+        const funcData = processChartData(analysisData.distributions.functionality);
+        Plotly.newPlot('chart-functionality', [{ x: funcData.values, y: funcData.labels, type: 'bar', orientation: 'h', marker: {color: 'rgba(34, 197, 94, 0.8)'} }], layout('Vulnerable Functionalities'));
+
+        const bypassData = processChartData(analysisData.distributions.bypass_method);
+        Plotly.newPlot('chart-bypass', [{ x: bypassData.values, y: bypassData.labels, type: 'bar', orientation: 'h', marker: {color: 'rgba(245, 158, 11, 0.8)'} }], layout('Bypass Methods'));
+    </script>
+</body>
+</html>
+        

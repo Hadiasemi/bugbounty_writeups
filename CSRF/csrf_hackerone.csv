@@ -1,0 +1,881 @@
+WriteupTitle,ReportTitle,ReportURL
+Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+CSRF Bypass Using Domain Confusion Leads To ATO,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Bypass Using Domain Confusion Leads To ATO,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Bypass Using Domain Confusion Leads To ATO,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Bypass Using Domain Confusion Leads To ATO,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Bypass Using Domain Confusion Leads To ATO,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Vulnerabilities in Homepage Dashboard,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Vulnerabilities in Homepage Dashboard,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Vulnerabilities in Homepage Dashboard,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Vulnerabilities in Homepage Dashboard,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Vulnerabilities in Homepage Dashboard,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+AI Under Siege: Discovering and Exploiting Vulnerabilities,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+AI Under Siege: Discovering and Exploiting Vulnerabilities,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+AI Under Siege: Discovering and Exploiting Vulnerabilities,DOS of RSKJ server,https://hackerone.com/reports/2105808
+AI Under Siege: Discovering and Exploiting Vulnerabilities,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+AI Under Siege: Discovering and Exploiting Vulnerabilities,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+SSD Advisory – XenForo RCE Via CSRF,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+SSD Advisory – XenForo RCE Via CSRF,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+SSD Advisory – XenForo RCE Via CSRF,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+SSD Advisory – XenForo RCE Via CSRF,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+SSD Advisory – XenForo RCE Via CSRF,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Self XSS + Login CSRF + OAuth = Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Self XSS + Login CSRF + OAuth = Account Takeover,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Self XSS + Login CSRF + OAuth = Account Takeover,ImageId Format Injection in Image Upload Endpoint,https://hackerone.com/reports/3175928
+Self XSS + Login CSRF + OAuth = Account Takeover,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Self XSS + Login CSRF + OAuth = Account Takeover,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Exploiting Client-Side Path Traversal to Perform Cross-Site Request Forgery - Introducing CSPT2CSRF,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CVE-2024-2448: Authenticated Command Injection In Progress Kemp LoadMaster,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CVE-2024-2448: Authenticated Command Injection In Progress Kemp LoadMaster,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CVE-2024-2448: Authenticated Command Injection In Progress Kemp LoadMaster,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CVE-2024-2448: Authenticated Command Injection In Progress Kemp LoadMaster,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CVE-2024-2448: Authenticated Command Injection In Progress Kemp LoadMaster,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+JSON CSRF in Microsoft Bing Maps Collections,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+JSON CSRF in Microsoft Bing Maps Collections,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+JSON CSRF in Microsoft Bing Maps Collections,DOS of RSKJ server,https://hackerone.com/reports/2105808
+JSON CSRF in Microsoft Bing Maps Collections,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+JSON CSRF in Microsoft Bing Maps Collections,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+LedgerSMB – CVE-2024-23831: Privilege escalation through CSRF attack on “setup.pl”,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+LedgerSMB – CVE-2024-23831: Privilege escalation through CSRF attack on “setup.pl”,DOS of RSKJ server,https://hackerone.com/reports/2105808
+LedgerSMB – CVE-2024-23831: Privilege escalation through CSRF attack on “setup.pl”,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+LedgerSMB – CVE-2024-23831: Privilege escalation through CSRF attack on “setup.pl”,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+LedgerSMB – CVE-2024-23831: Privilege escalation through CSRF attack on “setup.pl”,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Multiple Vulnerabilities In Extreme Networks ExtremeXOS,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Multiple Vulnerabilities In Extreme Networks ExtremeXOS,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Multiple Vulnerabilities In Extreme Networks ExtremeXOS,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Multiple Vulnerabilities In Extreme Networks ExtremeXOS,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Multiple Vulnerabilities In Extreme Networks ExtremeXOS,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Securing our home labs: Home Assistant code review,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Securing our home labs: Home Assistant code review,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Securing our home labs: Home Assistant code review,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Securing our home labs: Home Assistant code review,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Securing our home labs: Home Assistant code review,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"A web cache deception chained to a CSRF, the recipe",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"A web cache deception chained to a CSRF, the recipe",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"A web cache deception chained to a CSRF, the recipe",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"A web cache deception chained to a CSRF, the recipe",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"A web cache deception chained to a CSRF, the recipe",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Technical Advisory: Vulnerabilities Identified within ListServ,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Technical Advisory: Vulnerabilities Identified within ListServ,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Technical Advisory: Vulnerabilities Identified within ListServ,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Technical Advisory: Vulnerabilities Identified within ListServ,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Technical Advisory: Vulnerabilities Identified within ListServ,CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+"Blog: OmniSpace, from automated 0day XSS to RCE",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Blog: OmniSpace, from automated 0day XSS to RCE",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Blog: OmniSpace, from automated 0day XSS to RCE",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Blog: OmniSpace, from automated 0day XSS to RCE",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Blog: OmniSpace, from automated 0day XSS to RCE",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Bypassing Samesite Cookie Restrictions with Method Override,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Bypassing Samesite Cookie Restrictions with Method Override,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Bypassing Samesite Cookie Restrictions with Method Override,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Bypassing Samesite Cookie Restrictions with Method Override,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Bypassing Samesite Cookie Restrictions with Method Override,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+HTML Over the Wire,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+HTML Over the Wire,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+HTML Over the Wire,DOS of RSKJ server,https://hackerone.com/reports/2105808
+HTML Over the Wire,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+HTML Over the Wire,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRFing VS Code's Debug Adapter Protocol,CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+CSRFing VS Code's Debug Adapter Protocol,Private AWS AMIs are temporarily being exposed publicly,https://hackerone.com/reports/3083011
+CSRFing VS Code's Debug Adapter Protocol,HTTP/3 Stream Dependency Cycle Exploit,https://hackerone.com/reports/3125832
+CSRFing VS Code's Debug Adapter Protocol,Heap‑based buffer overflow in curl -K <config_file> allows arbitrary write .,https://hackerone.com/reports/3094406
+CSRFing VS Code's Debug Adapter Protocol,Transactions in invalid blocks are kept in tx-pool without undergoing certain checks.,https://hackerone.com/reports/2315026
+Multiple vulnerabilities on Chamilo 1.11.18,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Multiple vulnerabilities on Chamilo 1.11.18,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Multiple vulnerabilities on Chamilo 1.11.18,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Multiple vulnerabilities on Chamilo 1.11.18,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Multiple vulnerabilities on Chamilo 1.11.18,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Multiple Vulnerabilities In Cockpit CMS <= V2.5.2,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Multiple Vulnerabilities In Cockpit CMS <= V2.5.2,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Multiple Vulnerabilities In Cockpit CMS <= V2.5.2,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Multiple Vulnerabilities In Cockpit CMS <= V2.5.2,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Multiple Vulnerabilities In Cockpit CMS <= V2.5.2,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"My first two valid and rewarded Web Cache Deceptions, earning $2250",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"My first two valid and rewarded Web Cache Deceptions, earning $2250",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"My first two valid and rewarded Web Cache Deceptions, earning $2250",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"My first two valid and rewarded Web Cache Deceptions, earning $2250",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"My first two valid and rewarded Web Cache Deceptions, earning $2250",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Bypassing SameSite=lax cookie restrictions to preform CSRF resulting to a horizontal privilege escalation via poor email verification mechanism,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Bypassing SameSite=lax cookie restrictions to preform CSRF resulting to a horizontal privilege escalation via poor email verification mechanism,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Bypassing SameSite=lax cookie restrictions to preform CSRF resulting to a horizontal privilege escalation via poor email verification mechanism,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Bypassing SameSite=lax cookie restrictions to preform CSRF resulting to a horizontal privilege escalation via poor email verification mechanism,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Bypassing SameSite=lax cookie restrictions to preform CSRF resulting to a horizontal privilege escalation via poor email verification mechanism,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+SSO Gadgets: Escalate (Self-)XSS to ATO,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+SSO Gadgets: Escalate (Self-)XSS to ATO,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+SSO Gadgets: Escalate (Self-)XSS to ATO,DOS of RSKJ server,https://hackerone.com/reports/2105808
+SSO Gadgets: Escalate (Self-)XSS to ATO,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+SSO Gadgets: Escalate (Self-)XSS to ATO,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF + Stored XSS Leading to Full Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF + Stored XSS Leading to Full Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF + Stored XSS Leading to Full Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF + Stored XSS Leading to Full Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF + Stored XSS Leading to Full Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+EmojiDeploy: Smile! Your Azure web service just got RCE’d ._.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+EmojiDeploy: Smile! Your Azure web service just got RCE’d ._.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+EmojiDeploy: Smile! Your Azure web service just got RCE’d ._.,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+EmojiDeploy: Smile! Your Azure web service just got RCE’d ._.,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+EmojiDeploy: Smile! Your Azure web service just got RCE’d ._.,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Advanced CSRF Exploitation,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Advanced CSRF Exploitation,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Advanced CSRF Exploitation,Public GitHub repositories for multiple HackerOne managed triage team profiles contain private HackerOne reports information,https://hackerone.com/reports/2937622
+Advanced CSRF Exploitation,IDOR: Account Deletion via Session Misbinding – Attacker Can Delete Victim Account,https://hackerone.com/reports/3154983
+Advanced CSRF Exploitation,Information Disclosure of metrics fax.wavecell.com/metrics,https://hackerone.com/reports/1365076
+Exploiting CORS Misconfigurations,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Exploiting CORS Misconfigurations,Shopify Partners Invitation Process Allows Privilege Escalation Without Email Verification,https://hackerone.com/reports/2885269
+Exploiting CORS Misconfigurations,Privilege Persistence via Cloned Agent,https://hackerone.com/reports/3114554
+Exploiting CORS Misconfigurations,Double Free Vulnerability in `libcurl` Cookie Management (`cookie.c`),https://hackerone.com/reports/3117697
+Exploiting CORS Misconfigurations,Use of a Broken or Risky Cryptographic Algorithm (CWE-327) in libcurl,https://hackerone.com/reports/3116935
+Contrast discovers zero-day flaw in popular Quarkus Java framework,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Contrast discovers zero-day flaw in popular Quarkus Java framework,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Contrast discovers zero-day flaw in popular Quarkus Java framework,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Contrast discovers zero-day flaw in popular Quarkus Java framework,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Contrast discovers zero-day flaw in popular Quarkus Java framework,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CVE-2021-40662 Chamilo LMS 1.11.14 RCE,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+CVE-2021-40662 Chamilo LMS 1.11.14 RCE,CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+CVE-2021-40662 Chamilo LMS 1.11.14 RCE,Server-Side Request Forgery (SSRF) via Game Export API,https://hackerone.com/reports/3165242
+CVE-2021-40662 Chamilo LMS 1.11.14 RCE,Apache Airflow Fab Provider: Application does not invalidate session after password change via Airflow cli,https://hackerone.com/reports/3073507
+CVE-2021-40662 Chamilo LMS 1.11.14 RCE,Remote Code Execution via unsafe usage of `reply.view({ raw })` in @fastify/view (EJS template engine),https://hackerone.com/reports/3122019
+Compromising Plesk Via Its REST API,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Compromising Plesk Via Its REST API,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Compromising Plesk Via Its REST API,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Compromising Plesk Via Its REST API,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Compromising Plesk Via Its REST API,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+CSRF Leads to Delete User Account,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Leads to Delete User Account,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Leads to Delete User Account,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Leads to Delete User Account,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Leads to Delete User Account,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chaining multiple vulnerabilities for credential stealing,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Chaining multiple vulnerabilities for credential stealing,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Chaining multiple vulnerabilities for credential stealing,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Chaining multiple vulnerabilities for credential stealing,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chaining multiple vulnerabilities for credential stealing,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Facebook SMS Captcha Was Vulnerable to CSRF Attack,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Facebook SMS Captcha Was Vulnerable to CSRF Attack,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Facebook SMS Captcha Was Vulnerable to CSRF Attack,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Facebook SMS Captcha Was Vulnerable to CSRF Attack,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Facebook SMS Captcha Was Vulnerable to CSRF Attack,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Mr. Robot: Self Xss from Informative to high 1200$ ,csrf, open redirect,self xss to stored",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Mr. Robot: Self Xss from Informative to high 1200$ ,csrf, open redirect,self xss to stored",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Mr. Robot: Self Xss from Informative to high 1200$ ,csrf, open redirect,self xss to stored",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Mr. Robot: Self Xss from Informative to high 1200$ ,csrf, open redirect,self xss to stored",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Mr. Robot: Self Xss from Informative to high 1200$ ,csrf, open redirect,self xss to stored",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF Attack — 0 click account delete - 1st write-up,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Attack — 0 click account delete - 1st write-up,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Attack — 0 click account delete - 1st write-up,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+CSRF Attack — 0 click account delete - 1st write-up,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+CSRF Attack — 0 click account delete - 1st write-up,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Zoneminder – Web App Testing – Oct 2022,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Zoneminder – Web App Testing – Oct 2022,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Zoneminder – Web App Testing – Oct 2022,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Zoneminder – Web App Testing – Oct 2022,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Zoneminder – Web App Testing – Oct 2022,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Apollo Router Security Audit Report (Q2 2022),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Apollo Router Security Audit Report (Q2 2022),DOS of RSKJ server,https://hackerone.com/reports/2105808
+Apollo Router Security Audit Report (Q2 2022),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Apollo Router Security Audit Report (Q2 2022),Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Apollo Router Security Audit Report (Q2 2022),WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+CSRF Vulnerability In The NodeJS Ecosystem,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Vulnerability In The NodeJS Ecosystem,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Vulnerability In The NodeJS Ecosystem,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Vulnerability In The NodeJS Ecosystem,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Vulnerability In The NodeJS Ecosystem,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF leads to Account Takeover | Samsung,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF leads to Account Takeover | Samsung,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF leads to Account Takeover | Samsung,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF leads to Account Takeover | Samsung,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF leads to Account Takeover | Samsung,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How a Simple IDOR Led Me to Delete Any Account,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How a Simple IDOR Led Me to Delete Any Account,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How a Simple IDOR Led Me to Delete Any Account,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How a Simple IDOR Led Me to Delete Any Account,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How a Simple IDOR Led Me to Delete Any Account,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How we have pwned Root-Me in 2022,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How we have pwned Root-Me in 2022,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How we have pwned Root-Me in 2022,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How we have pwned Root-Me in 2022,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How we have pwned Root-Me in 2022,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+We Hacked Larksuite For 1 month and Here is what we found,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+We Hacked Larksuite For 1 month and Here is what we found,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+We Hacked Larksuite For 1 month and Here is what we found,DOS of RSKJ server,https://hackerone.com/reports/2105808
+We Hacked Larksuite For 1 month and Here is what we found,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+We Hacked Larksuite For 1 month and Here is what we found,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Stealing Google Drive OAuth tokens from Dropbox,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Stealing Google Drive OAuth tokens from Dropbox,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Stealing Google Drive OAuth tokens from Dropbox,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stealing Google Drive OAuth tokens from Dropbox,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Stealing Google Drive OAuth tokens from Dropbox,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Multiple bugs chained to takeover Facebook Accounts which uses Gmail.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Multiple bugs chained to takeover Facebook Accounts which uses Gmail.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Multiple bugs chained to takeover Facebook Accounts which uses Gmail.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Multiple bugs chained to takeover Facebook Accounts which uses Gmail.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Multiple bugs chained to takeover Facebook Accounts which uses Gmail.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"The Underrated Bugs, Clickjacking, CSS Injection, Drag-Drop XSS, Cookie Bomb, Login+Logout CSRF…",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"The Underrated Bugs, Clickjacking, CSS Injection, Drag-Drop XSS, Cookie Bomb, Login+Logout CSRF…",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"The Underrated Bugs, Clickjacking, CSS Injection, Drag-Drop XSS, Cookie Bomb, Login+Logout CSRF…",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"The Underrated Bugs, Clickjacking, CSS Injection, Drag-Drop XSS, Cookie Bomb, Login+Logout CSRF…",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"The Underrated Bugs, Clickjacking, CSS Injection, Drag-Drop XSS, Cookie Bomb, Login+Logout CSRF…",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chained Bug: XML File Upload to XSS to CSRF to Full Account Take Over (ATO),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Chained Bug: XML File Upload to XSS to CSRF to Full Account Take Over (ATO),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Chained Bug: XML File Upload to XSS to CSRF to Full Account Take Over (ATO),DOS of RSKJ server,https://hackerone.com/reports/2105808
+Chained Bug: XML File Upload to XSS to CSRF to Full Account Take Over (ATO),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Chained Bug: XML File Upload to XSS to CSRF to Full Account Take Over (ATO),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Small bugs are more dangerous than you think,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Small bugs are more dangerous than you think,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Small bugs are more dangerous than you think,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Small bugs are more dangerous than you think,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Small bugs are more dangerous than you think,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+What an injection into jQuery-selector can lead to,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+What an injection into jQuery-selector can lead to,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+What an injection into jQuery-selector can lead to,DOS of RSKJ server,https://hackerone.com/reports/2105808
+What an injection into jQuery-selector can lead to,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+What an injection into jQuery-selector can lead to,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CVE-2022-21703: cross-origin request forgery against Grafana,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CVE-2022-21703: cross-origin request forgery against Grafana,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+CVE-2022-21703: cross-origin request forgery against Grafana,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+CVE-2022-21703: cross-origin request forgery against Grafana,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+CVE-2022-21703: cross-origin request forgery against Grafana,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+A technique to semi-automatically find vulnerabilities in WordPress plugins,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+A technique to semi-automatically find vulnerabilities in WordPress plugins,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+A technique to semi-automatically find vulnerabilities in WordPress plugins,DOS of RSKJ server,https://hackerone.com/reports/2105808
+A technique to semi-automatically find vulnerabilities in WordPress plugins,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+A technique to semi-automatically find vulnerabilities in WordPress plugins,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Abusing Facebooks `Call To Action` To Launch Internal Deeplinks,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Abusing Facebooks `Call To Action` To Launch Internal Deeplinks,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Abusing Facebooks `Call To Action` To Launch Internal Deeplinks,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Abusing Facebooks `Call To Action` To Launch Internal Deeplinks,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Abusing Facebooks `Call To Action` To Launch Internal Deeplinks,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Stealing administrative JWT's through post auth SSRF (CVE-2021-22056),Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Stealing administrative JWT's through post auth SSRF (CVE-2021-22056),[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Stealing administrative JWT's through post auth SSRF (CVE-2021-22056),Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Stealing administrative JWT's through post auth SSRF (CVE-2021-22056),1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Stealing administrative JWT's through post auth SSRF (CVE-2021-22056),CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+Pwning the portal: from database dump to session hijacking,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Pwning the portal: from database dump to session hijacking,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Pwning the portal: from database dump to session hijacking,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Pwning the portal: from database dump to session hijacking,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Pwning the portal: from database dump to session hijacking,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+AWS SageMaker Jupyter Notebook Instance Takeover,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+AWS SageMaker Jupyter Notebook Instance Takeover,returnUrl= allow attacker to redirect users to the another phising website and takeover credientials,https://hackerone.com/reports/1544236
+AWS SageMaker Jupyter Notebook Instance Takeover,Server-Side Request Forgery (SSRF) via Game Export API,https://hackerone.com/reports/3165242
+AWS SageMaker Jupyter Notebook Instance Takeover,Facebook Username Takeover via Broken Link in Footer,https://hackerone.com/reports/3119034
+AWS SageMaker Jupyter Notebook Instance Takeover,Apache Airflow Fab Provider: Application does not invalidate session after password change via Airflow cli,https://hackerone.com/reports/3073507
+Exploiting OAuth: Journey to Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Exploiting OAuth: Journey to Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Exploiting OAuth: Journey to Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Exploiting OAuth: Journey to Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Exploiting OAuth: Journey to Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Diving into Open-source LMS Codebases,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Diving into Open-source LMS Codebases,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Diving into Open-source LMS Codebases,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Diving into Open-source LMS Codebases,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Diving into Open-source LMS Codebases,Crafted smart contract can take ~23 seconds to execute due to immense error string construction,https://hackerone.com/reports/2559404
+chaining improper authentication to idor and no rate limit for mass account takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+chaining improper authentication to idor and no rate limit for mass account takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+chaining improper authentication to idor and no rate limit for mass account takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+chaining improper authentication to idor and no rate limit for mass account takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+chaining improper authentication to idor and no rate limit for mass account takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Exploiting Request forgery on Mobile Applications.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Exploiting Request forgery on Mobile Applications.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Exploiting Request forgery on Mobile Applications.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Exploiting Request forgery on Mobile Applications.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Exploiting Request forgery on Mobile Applications.,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+CSRF to one tray Red-bull,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF to one tray Red-bull,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF to one tray Red-bull,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF to one tray Red-bull,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF to one tray Red-bull,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+2 CSRF 1 IDOR on Google Marketing Platform,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+2 CSRF 1 IDOR on Google Marketing Platform,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+2 CSRF 1 IDOR on Google Marketing Platform,DOS of RSKJ server,https://hackerone.com/reports/2105808
+2 CSRF 1 IDOR on Google Marketing Platform,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+2 CSRF 1 IDOR on Google Marketing Platform,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+chaining bugs from self XSS to account takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+chaining bugs from self XSS to account takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+chaining bugs from self XSS to account takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+chaining bugs from self XSS to account takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+chaining bugs from self XSS to account takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I found my first Subdomain Takeover vulnerability,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I found my first Subdomain Takeover vulnerability,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I found my first Subdomain Takeover vulnerability,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I found my first Subdomain Takeover vulnerability,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I found my first Subdomain Takeover vulnerability,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Why u should use burp to test Path Traversal Vulnerability and also get RXSS,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Why u should use burp to test Path Traversal Vulnerability and also get RXSS,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Why u should use burp to test Path Traversal Vulnerability and also get RXSS,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Why u should use burp to test Path Traversal Vulnerability and also get RXSS,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Why u should use burp to test Path Traversal Vulnerability and also get RXSS,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+how to be popular,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+how to be popular,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+how to be popular,DOS of RSKJ server,https://hackerone.com/reports/2105808
+how to be popular,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+how to be popular,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Part 2: Dive into Zoom Applications,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Part 2: Dive into Zoom Applications,ImageId Format Injection in Image Upload Endpoint,https://hackerone.com/reports/3175928
+Part 2: Dive into Zoom Applications,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Part 2: Dive into Zoom Applications,CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+Part 2: Dive into Zoom Applications,Public GitHub repositories for multiple HackerOne managed triage team profiles contain private HackerOne reports information,https://hackerone.com/reports/2937622
+Oversightboard.com site-wide CSRF due to missing checking,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Oversightboard.com site-wide CSRF due to missing checking,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Oversightboard.com site-wide CSRF due to missing checking,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Oversightboard.com site-wide CSRF due to missing checking,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Oversightboard.com site-wide CSRF due to missing checking,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+A supply-chain breach: Taking over an Atlassian account,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+A supply-chain breach: Taking over an Atlassian account,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+A supply-chain breach: Taking over an Atlassian account,DOS of RSKJ server,https://hackerone.com/reports/2105808
+A supply-chain breach: Taking over an Atlassian account,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+A supply-chain breach: Taking over an Atlassian account,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Part-1 Dive into Zoom Applications,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Part-1 Dive into Zoom Applications,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Part-1 Dive into Zoom Applications,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Part-1 Dive into Zoom Applications,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Part-1 Dive into Zoom Applications,ImageId Format Injection in Image Upload Endpoint,https://hackerone.com/reports/3175928
+Executing CSRF With Phone Validation,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Executing CSRF With Phone Validation,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Executing CSRF With Phone Validation,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Executing CSRF With Phone Validation,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Executing CSRF With Phone Validation,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+CSRF from which we can create a support ticket in Victim’s Account (500$),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF from which we can create a support ticket in Victim’s Account (500$),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF from which we can create a support ticket in Victim’s Account (500$),DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF from which we can create a support ticket in Victim’s Account (500$),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF from which we can create a support ticket in Victim’s Account (500$),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chaining CSRF with XSS to deactivate Mass user accounts by single click,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Chaining CSRF with XSS to deactivate Mass user accounts by single click,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Chaining CSRF with XSS to deactivate Mass user accounts by single click,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Chaining CSRF with XSS to deactivate Mass user accounts by single click,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Chaining CSRF with XSS to deactivate Mass user accounts by single click,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Got Nice catch by Google,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Got Nice catch by Google,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Got Nice catch by Google,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Got Nice catch by Google,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Got Nice catch by Google,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+CSRF in YouTube Leanback API,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF in YouTube Leanback API,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF in YouTube Leanback API,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF in YouTube Leanback API,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF in YouTube Leanback API,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Missing CORS leads to Complete Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Missing CORS leads to Complete Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Missing CORS leads to Complete Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Missing CORS leads to Complete Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Missing CORS leads to Complete Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF to Full Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF to Full Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF to Full Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF to Full Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF to Full Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chaining bugs for the greater good,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Chaining bugs for the greater good,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Chaining bugs for the greater good,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Chaining bugs for the greater good,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Chaining bugs for the greater good,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF through URL with # tag parameter,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF through URL with # tag parameter,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF through URL with # tag parameter,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF through URL with # tag parameter,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+CSRF through URL with # tag parameter,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+CSRF In JSF 2.0: Predicting CSRF Tokens For Apache MyFaces,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF In JSF 2.0: Predicting CSRF Tokens For Apache MyFaces,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF In JSF 2.0: Predicting CSRF Tokens For Apache MyFaces,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF In JSF 2.0: Predicting CSRF Tokens For Apache MyFaces,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF In JSF 2.0: Predicting CSRF Tokens For Apache MyFaces,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+OAuth Misconfiguration Leads to Full Account takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+OAuth Misconfiguration Leads to Full Account takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+OAuth Misconfiguration Leads to Full Account takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+OAuth Misconfiguration Leads to Full Account takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+OAuth Misconfiguration Leads to Full Account takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Stealing Chat session ID with CORS and execute CSRF attack,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Stealing Chat session ID with CORS and execute CSRF attack,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Stealing Chat session ID with CORS and execute CSRF attack,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Stealing Chat session ID with CORS and execute CSRF attack,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stealing Chat session ID with CORS and execute CSRF attack,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Launching Internal & Non-Exported Deeplinks On Facebook,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Launching Internal & Non-Exported Deeplinks On Facebook,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Launching Internal & Non-Exported Deeplinks On Facebook,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Launching Internal & Non-Exported Deeplinks On Facebook,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Launching Internal & Non-Exported Deeplinks On Facebook,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF Protection Bypass in Atlassian Confluence Server,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Protection Bypass in Atlassian Confluence Server,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Protection Bypass in Atlassian Confluence Server,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Protection Bypass in Atlassian Confluence Server,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Protection Bypass in Atlassian Confluence Server,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF with IDOR - A Deadly Combo,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF with IDOR - A Deadly Combo,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF with IDOR - A Deadly Combo,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF with IDOR - A Deadly Combo,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF with IDOR - A Deadly Combo,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Finding bugs on Chess.com,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Finding bugs on Chess.com,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Finding bugs on Chess.com,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Finding bugs on Chess.com,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Finding bugs on Chess.com,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Cookie Tossing to RCE on Google Cloud JupyterLab,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Cookie Tossing to RCE on Google Cloud JupyterLab,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Cookie Tossing to RCE on Google Cloud JupyterLab,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Cookie Tossing to RCE on Google Cloud JupyterLab,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Cookie Tossing to RCE on Google Cloud JupyterLab,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Site Wide CSRF On Glassdoor,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Site Wide CSRF On Glassdoor,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Site Wide CSRF On Glassdoor,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Site Wide CSRF On Glassdoor,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Site Wide CSRF On Glassdoor,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Weaponizing XSS For Fun & Profit,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Weaponizing XSS For Fun & Profit,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Weaponizing XSS For Fun & Profit,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Weaponizing XSS For Fun & Profit,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Weaponizing XSS For Fun & Profit,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Unhiding the hidden,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Unhiding the hidden,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Unhiding the hidden,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Unhiding the hidden,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Unhiding the hidden,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Journey to my First Bug Hunt$$$$,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Journey to my First Bug Hunt$$$$,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Journey to my First Bug Hunt$$$$,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Journey to my First Bug Hunt$$$$,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Journey to my First Bug Hunt$$$$,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF + Open Redirect To Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF + Open Redirect To Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF + Open Redirect To Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF + Open Redirect To Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF + Open Redirect To Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Tenda AC15 AC1900 Vulnerabilities Discovered and Exploited,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Tenda AC15 AC1900 Vulnerabilities Discovered and Exploited,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Tenda AC15 AC1900 Vulnerabilities Discovered and Exploited,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Tenda AC15 AC1900 Vulnerabilities Discovered and Exploited,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Tenda AC15 AC1900 Vulnerabilities Discovered and Exploited,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+EN | Account Takeover and Sensitive Data Leakage via CORS Misconfiguration,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+EN | Account Takeover and Sensitive Data Leakage via CORS Misconfiguration,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+EN | Account Takeover and Sensitive Data Leakage via CORS Misconfiguration,DOS of RSKJ server,https://hackerone.com/reports/2105808
+EN | Account Takeover and Sensitive Data Leakage via CORS Misconfiguration,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+EN | Account Takeover and Sensitive Data Leakage via CORS Misconfiguration,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Let’s Bypass CSRF Protection & Password Confirmation to Takeover Victim Accounts :D,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Let’s Bypass CSRF Protection & Password Confirmation to Takeover Victim Accounts :D,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Let’s Bypass CSRF Protection & Password Confirmation to Takeover Victim Accounts :D,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Let’s Bypass CSRF Protection & Password Confirmation to Takeover Victim Accounts :D,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Let’s Bypass CSRF Protection & Password Confirmation to Takeover Victim Accounts :D,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How i earned $500 from google by change one character .,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How i earned $500 from google by change one character .,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How i earned $500 from google by change one character .,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How i earned $500 from google by change one character .,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How i earned $500 from google by change one character .,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I leveraged an interesting CSRF vulnerability to turn self XSS into a persistent attack?,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I leveraged an interesting CSRF vulnerability to turn self XSS into a persistent attack?,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I leveraged an interesting CSRF vulnerability to turn self XSS into a persistent attack?,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I leveraged an interesting CSRF vulnerability to turn self XSS into a persistent attack?,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I leveraged an interesting CSRF vulnerability to turn self XSS into a persistent attack?,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF to RCE bug chain in Prestashop v1.7.6.4 and below,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF to RCE bug chain in Prestashop v1.7.6.4 and below,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF to RCE bug chain in Prestashop v1.7.6.4 and below,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF to RCE bug chain in Prestashop v1.7.6.4 and below,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF to RCE bug chain in Prestashop v1.7.6.4 and below,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How a Simple CSRF Attack Turned into a P1 Level Bug,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How a Simple CSRF Attack Turned into a P1 Level Bug,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How a Simple CSRF Attack Turned into a P1 Level Bug,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How a Simple CSRF Attack Turned into a P1 Level Bug,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How a Simple CSRF Attack Turned into a P1 Level Bug,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Always escalate! From Self-XSS to Persistent XSS on Login Portal,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Always escalate! From Self-XSS to Persistent XSS on Login Portal,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Always escalate! From Self-XSS to Persistent XSS on Login Portal,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Always escalate! From Self-XSS to Persistent XSS on Login Portal,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Always escalate! From Self-XSS to Persistent XSS on Login Portal,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Self XSS to Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Self XSS to Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Self XSS to Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Self XSS to Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Self XSS to Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Hacking — Always Check the Cross-domain Policy,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Hacking — Always Check the Cross-domain Policy,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Hacking — Always Check the Cross-domain Policy,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Hacking — Always Check the Cross-domain Policy,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Hacking — Always Check the Cross-domain Policy,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I was able to bypass the current password?,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I was able to bypass the current password?,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I was able to bypass the current password?,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I was able to bypass the current password?,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I was able to bypass the current password?,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I exploit the JSON CSRF with method override technique,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I exploit the JSON CSRF with method override technique,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I exploit the JSON CSRF with method override technique,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I exploit the JSON CSRF with method override technique,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I exploit the JSON CSRF with method override technique,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Facebook CSRF bug which lead to Instagram Partial account takeover.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Facebook CSRF bug which lead to Instagram Partial account takeover.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Facebook CSRF bug which lead to Instagram Partial account takeover.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Facebook CSRF bug which lead to Instagram Partial account takeover.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Facebook CSRF bug which lead to Instagram Partial account takeover.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Exploiting Jira for Host Discovery,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Exploiting Jira for Host Discovery,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Exploiting Jira for Host Discovery,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Exploiting Jira for Host Discovery,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Exploiting Jira for Host Discovery,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Site wide CSRF on a popular program,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Site wide CSRF on a popular program,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Site wide CSRF on a popular program,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Site wide CSRF on a popular program,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Site wide CSRF on a popular program,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Using CSRF I Got Weird Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Using CSRF I Got Weird Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Using CSRF I Got Weird Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Using CSRF I Got Weird Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Using CSRF I Got Weird Account Takeover,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+CSRF CSRF CSRF…,CSRF to Reflected XSS at echo.urbandictionary.biz via spoofing content type,https://hackerone.com/reports/1237321
+CSRF CSRF CSRF…,There is a POST based CSRF issue over IBM endpoint leading to modification of contact information.,https://hackerone.com/reports/2919623
+CSRF CSRF CSRF…,CSRF leads to Account takeover,https://hackerone.com/reports/2699029
+CSRF CSRF CSRF…,CSRF leads to Account takeover,https://hackerone.com/reports/2712857
+CSRF CSRF CSRF…,CSRF Attack on changing security questions leads to full Account TakeOver,https://hackerone.com/reports/2652603
+Google Bug Bounty: CSRF in learndigital.withgoogle.com,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Google Bug Bounty: CSRF in learndigital.withgoogle.com,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Google Bug Bounty: CSRF in learndigital.withgoogle.com,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Google Bug Bounty: CSRF in learndigital.withgoogle.com,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Google Bug Bounty: CSRF in learndigital.withgoogle.com,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Bypass SameSite Cookies Default to Lax and get CSRF,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Bypass SameSite Cookies Default to Lax and get CSRF,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Bypass SameSite Cookies Default to Lax and get CSRF,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Bypass SameSite Cookies Default to Lax and get CSRF,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Bypass SameSite Cookies Default to Lax and get CSRF,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+2 FA Bypass via CSRF Attack,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+2 FA Bypass via CSRF Attack,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+2 FA Bypass via CSRF Attack,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+2 FA Bypass via CSRF Attack,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+2 FA Bypass via CSRF Attack,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Stored Iframe Injection + CSRF = Account Takeover 😎😎,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stored Iframe Injection + CSRF = Account Takeover 😎😎,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Stored Iframe Injection + CSRF = Account Takeover 😎😎,ImageId Format Injection in Image Upload Endpoint,https://hackerone.com/reports/3175928
+Stored Iframe Injection + CSRF = Account Takeover 😎😎,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Stored Iframe Injection + CSRF = Account Takeover 😎😎,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+How I turned Self XSS to Stored via CSRF,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I turned Self XSS to Stored via CSRF,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I turned Self XSS to Stored via CSRF,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I turned Self XSS to Stored via CSRF,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I turned Self XSS to Stored via CSRF,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+The AccountTakeOver Killing Chain,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+The AccountTakeOver Killing Chain,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+The AccountTakeOver Killing Chain,DOS of RSKJ server,https://hackerone.com/reports/2105808
+The AccountTakeOver Killing Chain,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+The AccountTakeOver Killing Chain,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Cross Site Request Forgery Critical Exploitable IN Infected Site?,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Cross Site Request Forgery Critical Exploitable IN Infected Site?,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Cross Site Request Forgery Critical Exploitable IN Infected Site?,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Cross Site Request Forgery Critical Exploitable IN Infected Site?,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Cross Site Request Forgery Critical Exploitable IN Infected Site?,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+XSS to Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+XSS to Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+XSS to Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+XSS to Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+XSS to Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+An inconsistent CSRF,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+An inconsistent CSRF,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+An inconsistent CSRF,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+An inconsistent CSRF,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+An inconsistent CSRF,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Admin hijacked by Sea Surf Pirates,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Admin hijacked by Sea Surf Pirates,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Admin hijacked by Sea Surf Pirates,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Admin hijacked by Sea Surf Pirates,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Admin hijacked by Sea Surf Pirates,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+CSRF Email Confirmation Vulnerability for Gmail & G-Suite in Facebook,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Email Confirmation Vulnerability for Gmail & G-Suite in Facebook,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Email Confirmation Vulnerability for Gmail & G-Suite in Facebook,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Email Confirmation Vulnerability for Gmail & G-Suite in Facebook,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Email Confirmation Vulnerability for Gmail & G-Suite in Facebook,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Bypass CSRF With ClickJacking Worth $1250,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Bypass CSRF With ClickJacking Worth $1250,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Bypass CSRF With ClickJacking Worth $1250,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Bypass CSRF With ClickJacking Worth $1250,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Bypass CSRF With ClickJacking Worth $1250,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Account Takeover Using CSRF(json-based),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Account Takeover Using CSRF(json-based),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Account Takeover Using CSRF(json-based),Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Account Takeover Using CSRF(json-based),Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Account Takeover Using CSRF(json-based),IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+CORS To CSRF Attack,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CORS To CSRF Attack,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CORS To CSRF Attack,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CORS To CSRF Attack,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CORS To CSRF Attack,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Account Takeover Worth $900,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Account Takeover Worth $900,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Account Takeover Worth $900,ImageId Format Injection in Image Upload Endpoint,https://hackerone.com/reports/3175928
+Account Takeover Worth $900,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Account Takeover Worth $900,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+My First CSRF to Account Takeover worth $750,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+My First CSRF to Account Takeover worth $750,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+My First CSRF to Account Takeover worth $750,DOS of RSKJ server,https://hackerone.com/reports/2105808
+My First CSRF to Account Takeover worth $750,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+My First CSRF to Account Takeover worth $750,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Stealing Downloads from Slack Users,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Stealing Downloads from Slack Users,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Stealing Downloads from Slack Users,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Stealing Downloads from Slack Users,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stealing Downloads from Slack Users,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+4x CSRFs Chained For Company Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+4x CSRFs Chained For Company Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+4x CSRFs Chained For Company Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+4x CSRFs Chained For Company Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+4x CSRFs Chained For Company Account Takeover,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+CSRF Attack can lead to Stored XSS,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF Attack can lead to Stored XSS,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF Attack can lead to Stored XSS,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF Attack can lead to Stored XSS,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF Attack can lead to Stored XSS,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Account Takeover by chaining two vulnerabilities.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Account Takeover by chaining two vulnerabilities.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Account Takeover by chaining two vulnerabilities.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Account Takeover by chaining two vulnerabilities.,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Account Takeover by chaining two vulnerabilities.,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Obtaining XSS Using Moodle Features and Minor Bugs,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Obtaining XSS Using Moodle Features and Minor Bugs,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Obtaining XSS Using Moodle Features and Minor Bugs,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Obtaining XSS Using Moodle Features and Minor Bugs,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Obtaining XSS Using Moodle Features and Minor Bugs,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Same-Origin Policy: From birth until today,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Same-Origin Policy: From birth until today,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Same-Origin Policy: From birth until today,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+Same-Origin Policy: From birth until today,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Same-Origin Policy: From birth until today,CVE-2025-5399: WebSocket endless loop,https://hackerone.com/reports/3168039
+How I could have hijacked a victim’s YouTube notifications! (Google VRP Writeup),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I could have hijacked a victim’s YouTube notifications! (Google VRP Writeup),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I could have hijacked a victim’s YouTube notifications! (Google VRP Writeup),DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I could have hijacked a victim’s YouTube notifications! (Google VRP Writeup),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I could have hijacked a victim’s YouTube notifications! (Google VRP Writeup),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+WordPress 5.1 CSRF to Remote Code Execution,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+WordPress 5.1 CSRF to Remote Code Execution,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+WordPress 5.1 CSRF to Remote Code Execution,DOS of RSKJ server,https://hackerone.com/reports/2105808
+WordPress 5.1 CSRF to Remote Code Execution,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+WordPress 5.1 CSRF to Remote Code Execution,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Brute Forcing User IDS via CSRF To Delete all Users with CSRF attack.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Brute Forcing User IDS via CSRF To Delete all Users with CSRF attack.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Brute Forcing User IDS via CSRF To Delete all Users with CSRF attack.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Brute Forcing User IDS via CSRF To Delete all Users with CSRF attack.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Brute Forcing User IDS via CSRF To Delete all Users with CSRF attack.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Facebook CSRF protection bypass which leads to Account Takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Facebook CSRF protection bypass which leads to Account Takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Facebook CSRF protection bypass which leads to Account Takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Facebook CSRF protection bypass which leads to Account Takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Facebook CSRF protection bypass which leads to Account Takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Csrf Bypass Using Cross Frame Scripting,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Csrf Bypass Using Cross Frame Scripting,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Csrf Bypass Using Cross Frame Scripting,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Csrf Bypass Using Cross Frame Scripting,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Csrf Bypass Using Cross Frame Scripting,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Oauth Misconfiguration lead to complete account takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Oauth Misconfiguration lead to complete account takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Oauth Misconfiguration lead to complete account takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Oauth Misconfiguration lead to complete account takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Oauth Misconfiguration lead to complete account takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I could have taken over any Pinterest account,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I could have taken over any Pinterest account,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I could have taken over any Pinterest account,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I could have taken over any Pinterest account,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+How I could have taken over any Pinterest account,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Remote Code Execution on a Facebook server,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Remote Code Execution on a Facebook server,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Remote Code Execution on a Facebook server,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Remote Code Execution on a Facebook server,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Remote Code Execution on a Facebook server,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How i Found Information Disclosure on Scribd.com,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How i Found Information Disclosure on Scribd.com,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How i Found Information Disclosure on Scribd.com,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How i Found Information Disclosure on Scribd.com,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How i Found Information Disclosure on Scribd.com,Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Patched Facebook Vulnerability Could Have Exposed Private Information About You and Your Friends,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Patched Facebook Vulnerability Could Have Exposed Private Information About You and Your Friends,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Patched Facebook Vulnerability Could Have Exposed Private Information About You and Your Friends,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Patched Facebook Vulnerability Could Have Exposed Private Information About You and Your Friends,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Patched Facebook Vulnerability Could Have Exposed Private Information About You and Your Friends,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Improper CSRF token handling leads to site-wide CSRF issue, chained with clickjacking = woot! Multiple sites vulnerable",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Improper CSRF token handling leads to site-wide CSRF issue, chained with clickjacking = woot! Multiple sites vulnerable",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Improper CSRF token handling leads to site-wide CSRF issue, chained with clickjacking = woot! Multiple sites vulnerable",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Improper CSRF token handling leads to site-wide CSRF issue, chained with clickjacking = woot! Multiple sites vulnerable",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Improper CSRF token handling leads to site-wide CSRF issue, chained with clickjacking = woot! Multiple sites vulnerable",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+A very useful technique to bypass the CSRF protection for fun and profit.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+A very useful technique to bypass the CSRF protection for fun and profit.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+A very useful technique to bypass the CSRF protection for fun and profit.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+A very useful technique to bypass the CSRF protection for fun and profit.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+A very useful technique to bypass the CSRF protection for fun and profit.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Microsoft CSRF Vulnerability,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Microsoft CSRF Vulnerability,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Microsoft CSRF Vulnerability,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Microsoft CSRF Vulnerability,Lack of Feedback Validation Permits Arbitrary Driver Ratings,https://hackerone.com/reports/2894018
+Microsoft CSRF Vulnerability,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+An interesting Google vulnerability that got me 3133.7 reward.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+An interesting Google vulnerability that got me 3133.7 reward.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+An interesting Google vulnerability that got me 3133.7 reward.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+An interesting Google vulnerability that got me 3133.7 reward.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+An interesting Google vulnerability that got me 3133.7 reward.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I hijacked your account when you opened my cat picture,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I hijacked your account when you opened my cat picture,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I hijacked your account when you opened my cat picture,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I hijacked your account when you opened my cat picture,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+How I hijacked your account when you opened my cat picture,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Send request to Martians. Earthlings are already your friends.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Send request to Martians. Earthlings are already your friends.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Send request to Martians. Earthlings are already your friends.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Send request to Martians. Earthlings are already your friends.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Send request to Martians. Earthlings are already your friends.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+How I was able to delete 13k+ Microsoft Translator projects,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+How I was able to delete 13k+ Microsoft Translator projects,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I was able to delete 13k+ Microsoft Translator projects,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I was able to delete 13k+ Microsoft Translator projects,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I was able to delete 13k+ Microsoft Translator projects,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Self-XSS + CSRF to Stored XSS,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Self-XSS + CSRF to Stored XSS,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Self-XSS + CSRF to Stored XSS,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Self-XSS + CSRF to Stored XSS,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Self-XSS + CSRF to Stored XSS,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"How I hacked companies related to the crypto currency and earned $60,000",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"How I hacked companies related to the crypto currency and earned $60,000",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"How I hacked companies related to the crypto currency and earned $60,000",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"How I hacked companies related to the crypto currency and earned $60,000",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"How I hacked companies related to the crypto currency and earned $60,000",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Google bugs stories and the shiny pixelbook.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Google bugs stories and the shiny pixelbook.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Google bugs stories and the shiny pixelbook.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Google bugs stories and the shiny pixelbook.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Google bugs stories and the shiny pixelbook.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+$1800 in less than an hour.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+$1800 in less than an hour.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+$1800 in less than an hour.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+$1800 in less than an hour.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+$1800 in less than an hour.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Hacking Facebook accounts using CSRF in Oculus-Facebook integration,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Hacking Facebook accounts using CSRF in Oculus-Facebook integration,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Hacking Facebook accounts using CSRF in Oculus-Facebook integration,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Hacking Facebook accounts using CSRF in Oculus-Facebook integration,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Hacking Facebook accounts using CSRF in Oculus-Facebook integration,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Multiple Plone Cross-Site Scripting Vulnerabilities,WordPress Version Exposure via /wp-links-opml.php on hemi.xyz,https://hackerone.com/reports/3198394
+Multiple Plone Cross-Site Scripting Vulnerabilities,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Multiple Plone Cross-Site Scripting Vulnerabilities,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Multiple Plone Cross-Site Scripting Vulnerabilities,DoS Vulnerability via Cache Poisoning on cdn.shopify.com and shopify-assets.shopifycdn.com,https://hackerone.com/reports/1695604
+Multiple Plone Cross-Site Scripting Vulnerabilities,returnUrl= allow attacker to redirect users to the another phising website and takeover credientials,https://hackerone.com/reports/1544236
+Leaking Amazon.com CSRF Tokens Using Service Worker API,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Leaking Amazon.com CSRF Tokens Using Service Worker API,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Leaking Amazon.com CSRF Tokens Using Service Worker API,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Leaking Amazon.com CSRF Tokens Using Service Worker API,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Leaking Amazon.com CSRF Tokens Using Service Worker API,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+Facebook GraphQL CSRF,Facebook Username Takeover via Broken Link in Footer,https://hackerone.com/reports/3119034
+Facebook GraphQL CSRF,The /reports/:id.json endpoint discloses potentially sensitive user attributes when reporter summary is present,https://hackerone.com/reports/3000510
+Facebook GraphQL CSRF,CSRF to Reflected XSS at echo.urbandictionary.biz via spoofing content type,https://hackerone.com/reports/1237321
+Facebook GraphQL CSRF,Insecure Direct Object Reference (IDOR) in GraphQL deleteProfileImages Mutation,https://hackerone.com/reports/2968039
+Facebook GraphQL CSRF,There is a POST based CSRF issue over IBM endpoint leading to modification of contact information.,https://hackerone.com/reports/2919623
+Luminate Store Basics defacement and potential takeover,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Luminate Store Basics defacement and potential takeover,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Luminate Store Basics defacement and potential takeover,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Luminate Store Basics defacement and potential takeover,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Luminate Store Basics defacement and potential takeover,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Chain the vulnerabilities and take your report impact on the moon (CSRF to HTML INJECTION which results OPEN REDIRECT and could steal USER CREDENTIALS),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Chain the vulnerabilities and take your report impact on the moon (CSRF to HTML INJECTION which results OPEN REDIRECT and could steal USER CREDENTIALS),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Chain the vulnerabilities and take your report impact on the moon (CSRF to HTML INJECTION which results OPEN REDIRECT and could steal USER CREDENTIALS),DOS of RSKJ server,https://hackerone.com/reports/2105808
+Chain the vulnerabilities and take your report impact on the moon (CSRF to HTML INJECTION which results OPEN REDIRECT and could steal USER CREDENTIALS),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Chain the vulnerabilities and take your report impact on the moon (CSRF to HTML INJECTION which results OPEN REDIRECT and could steal USER CREDENTIALS),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+That Escalated Quickly : From partial CSRF to reflected XSS to complete CSRF to Stored XSS,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+That Escalated Quickly : From partial CSRF to reflected XSS to complete CSRF to Stored XSS,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+That Escalated Quickly : From partial CSRF to reflected XSS to complete CSRF to Stored XSS,DOS of RSKJ server,https://hackerone.com/reports/2105808
+That Escalated Quickly : From partial CSRF to reflected XSS to complete CSRF to Stored XSS,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+That Escalated Quickly : From partial CSRF to reflected XSS to complete CSRF to Stored XSS,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Authentication bypass on Airbnb via OAuth tokens theft,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Authentication bypass on Airbnb via OAuth tokens theft,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Authentication bypass on Airbnb via OAuth tokens theft,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Authentication bypass on Airbnb via OAuth tokens theft,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Authentication bypass on Airbnb via OAuth tokens theft,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Vulnerability in Metasploit Project aka CVE-2017-5244,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Vulnerability in Metasploit Project aka CVE-2017-5244,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Vulnerability in Metasploit Project aka CVE-2017-5244,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Vulnerability in Metasploit Project aka CVE-2017-5244,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Vulnerability in Metasploit Project aka CVE-2017-5244,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Stored XSS, CSRF And Clickjacking Vulnerabilities in Opera",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Stored XSS, CSRF And Clickjacking Vulnerabilities in Opera",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Stored XSS, CSRF And Clickjacking Vulnerabilities in Opera",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Stored XSS, CSRF And Clickjacking Vulnerabilities in Opera",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Stored XSS, CSRF And Clickjacking Vulnerabilities in Opera",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Cross Site Request Forgery in Facebook,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Cross Site Request Forgery in Facebook,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Cross Site Request Forgery in Facebook,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Cross Site Request Forgery in Facebook,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Cross Site Request Forgery in Facebook,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+CSRF in partners.facebook.com,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+CSRF in partners.facebook.com,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+CSRF in partners.facebook.com,DOS of RSKJ server,https://hackerone.com/reports/2105808
+CSRF in partners.facebook.com,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+CSRF in partners.facebook.com,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Messenger.com Site-Wide CSRF,[XSS] Reflected XSS via POST request in (███████),https://hackerone.com/reports/3146996
+Messenger.com Site-Wide CSRF,returnUrl= allow attacker to redirect users to the another phising website and takeover credientials,https://hackerone.com/reports/1544236
+Messenger.com Site-Wide CSRF,Server-Side Request Forgery (SSRF) via Game Export API,https://hackerone.com/reports/3165242
+Messenger.com Site-Wide CSRF,Memory Leak in libcurl via Location Header Handling (CWE-770),https://hackerone.com/reports/3158093
+Messenger.com Site-Wide CSRF,Open Redirect Vulnerability in OAuth Flow Leading to Potential Phishing Attack,https://hackerone.com/reports/3099816
+Stealing Facebook access_tokens using CSRF in device login flow,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Stealing Facebook access_tokens using CSRF in device login flow,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Stealing Facebook access_tokens using CSRF in device login flow,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Stealing Facebook access_tokens using CSRF in device login flow,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stealing Facebook access_tokens using CSRF in device login flow,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),DOS of RSKJ server,https://hackerone.com/reports/2105808
+Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Fiverr.com Full Accounts Takeover – A Vulnerability Puts $50 Million Company At Risk,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Fiverr.com Full Accounts Takeover – A Vulnerability Puts $50 Million Company At Risk,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Fiverr.com Full Accounts Takeover – A Vulnerability Puts $50 Million Company At Risk,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Fiverr.com Full Accounts Takeover – A Vulnerability Puts $50 Million Company At Risk,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Fiverr.com Full Accounts Takeover – A Vulnerability Puts $50 Million Company At Risk,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Obtaining Login Tokens for an Outlook, Office or Azure Account",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Obtaining Login Tokens for an Outlook, Office or Azure Account",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Obtaining Login Tokens for an Outlook, Office or Azure Account",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Obtaining Login Tokens for an Outlook, Office or Azure Account",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+"Obtaining Login Tokens for an Outlook, Office or Azure Account",Ability to increase any customer offered fare (BAC),https://hackerone.com/reports/2861888
+Ubiquiti Bug Bounty: UniFi v3.2.10 Generic CSRF Protection Bypass,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Ubiquiti Bug Bounty: UniFi v3.2.10 Generic CSRF Protection Bypass,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Ubiquiti Bug Bounty: UniFi v3.2.10 Generic CSRF Protection Bypass,Bypassing Bronze Partner Wallet Restriction to Accept Trips with Negative Balance,https://hackerone.com/reports/2868164
+Ubiquiti Bug Bounty: UniFi v3.2.10 Generic CSRF Protection Bypass,Crafted smart contract can take ~23 seconds to execute due to immense error string construction,https://hackerone.com/reports/2559404
+Ubiquiti Bug Bounty: UniFi v3.2.10 Generic CSRF Protection Bypass,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+How I bypassed Facebook CSRF Protection,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+How I bypassed Facebook CSRF Protection,DOS of RSKJ server,https://hackerone.com/reports/2105808
+How I bypassed Facebook CSRF Protection,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+How I bypassed Facebook CSRF Protection,Crafted smart contract can take 1.5 minutes to execute due to inefficient CODESIZE implementation,https://hackerone.com/reports/2489843
+How I bypassed Facebook CSRF Protection,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Flickr API Explorer – Force users to execute any API request.,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Flickr API Explorer – Force users to execute any API request.,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Flickr API Explorer – Force users to execute any API request.,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Flickr API Explorer – Force users to execute any API request.,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Flickr API Explorer – Force users to execute any API request.,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Popping a shell on the Oculus developer portal,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Popping a shell on the Oculus developer portal,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Popping a shell on the Oculus developer portal,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Popping a shell on the Oculus developer portal,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Popping a shell on the Oculus developer portal,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Instagram's One-Click Privacy Switch,Broken Access Control (IDOR) in Booking Detail and Bids Could Leads to Sensitive Information Disclosure,https://hackerone.com/reports/2374730
+Instagram's One-Click Privacy Switch,Lack of Feedback Validation Permits Arbitrary Driver Ratings,https://hackerone.com/reports/2894018
+Instagram's One-Click Privacy Switch,Path Traversal Vulnerability in Lila Project,https://hackerone.com/reports/3181066
+Instagram's One-Click Privacy Switch,IDOR Vulnerability at AddTagToAssets operation name,https://hackerone.com/reports/2633771
+Instagram's One-Click Privacy Switch,1 Click Account Takeover via Auth Token Theft on marketing.hostinger.com,https://hackerone.com/reports/3081691
+"Facebook bug bounty: secondary damage (one report that leads to more bugs), fairness, and why I really like reporting to Facebook",Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+"Facebook bug bounty: secondary damage (one report that leads to more bugs), fairness, and why I really like reporting to Facebook",Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+"Facebook bug bounty: secondary damage (one report that leads to more bugs), fairness, and why I really like reporting to Facebook",DOS of RSKJ server,https://hackerone.com/reports/2105808
+"Facebook bug bounty: secondary damage (one report that leads to more bugs), fairness, and why I really like reporting to Facebook",Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+"Facebook bug bounty: secondary damage (one report that leads to more bugs), fairness, and why I really like reporting to Facebook",IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Facebook CSRF leading to full account takeover (fixed),Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Facebook CSRF leading to full account takeover (fixed),Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Facebook CSRF leading to full account takeover (fixed),DOS of RSKJ server,https://hackerone.com/reports/2105808
+Facebook CSRF leading to full account takeover (fixed),Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Facebook CSRF leading to full account takeover (fixed),IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742
+Stealing Facebook Access Tokens with a Double Submit,Improper HTTP header block termination in llhttp,https://hackerone.com/reports/2054283
+Stealing Facebook Access Tokens with a Double Submit,Crafted smart contract can take 8 minutes to execute due to bug in modexp precompile.,https://hackerone.com/reports/2412583
+Stealing Facebook Access Tokens with a Double Submit,DOS of RSKJ server,https://hackerone.com/reports/2105808
+Stealing Facebook Access Tokens with a Double Submit,Improper Authentication Throttling Allows Attacker-Controlled Account Lockouts,https://hackerone.com/reports/3160210
+Stealing Facebook Access Tokens with a Double Submit,IDOR on in-app hardcoded zombie endpoint,https://hackerone.com/reports/3085742

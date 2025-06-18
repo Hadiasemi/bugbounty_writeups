@@ -1,0 +1,33 @@
+{
+  "basic_statistics": {
+    "total_reports": 75,
+    "total_bounty": 339100.0,
+    "average_bounty": 4521.333333333333
+  },
+  "distributions": {
+    "xxe_type": {
+      "Classic (Local File Read)": 27,
+      "Blind XXE": 16,
+      "OOB XXE": 11,
+      "Billion Laughs (DoS)": 5,
+      "Error-Based XXE": 2
+    },
+    "impact": {
+      "Information Disclosure (LFI)": 38,
+      "Server-Side Request Forgery (SSRF)": 10,
+      "Denial of Service (DoS)": 8,
+      "Remote Code Execution (RCE)": 5
+    },
+    "functionality": {
+      "File Upload (XML/Office Docs)": 34,
+      "API Endpoint (XML Body)": 26,
+      "Document Processing": 1
+    },
+    "bypass_method": {
+      "Parameter Entities": 36,
+      "Protocol Handlers (e.g., file://)": 14,
+      "No Bypass Needed": 10,
+      "CDATA Sections": 1
+    }
+  }
+}

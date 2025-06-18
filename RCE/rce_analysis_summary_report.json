@@ -1,0 +1,71 @@
+{
+  "statistics": {
+    "total_reports_analyzed": 1008
+  },
+  "distributions": {
+    "functionality": {
+      "Imports/Sharing": 450,
+      "General Application Logic": 168,
+      "Admin/Config Panel": 156,
+      "unknown": 110,
+      "File Management": 65,
+      "User Profile/Content": 55,
+      "CI/CD Pipeline": 4
+    },
+    "vulnerability_type": {
+      "Command Injection": 685,
+      "Unrestricted File Write/Upload": 115,
+      "unknown": 110,
+      "Insecure Deserialization": 58,
+      "Server-Side Template Injection (SSTI)": 18,
+      "Code Injection": 12,
+      "Log Poisoning": 5,
+      "XXE": 5
+    },
+    "execution_context": {
+      "Server-side RCE": 797,
+      "unknown": 110,
+      "CI/CD Pipeline RCE": 66,
+      "Desktop App RCE": 35
+    },
+    "language_or_framework": {
+      "PHP": 285,
+      "Java": 253,
+      "Generic Linux": 194,
+      "unknown": 110,
+      "Python": 80,
+      ".NET": 46,
+      "NodeJS": 29,
+      "Ruby": 11
+    },
+    "attack_vector": {
+      "Web Application Parameter": 844,
+      "unknown": 110,
+      "API Endpoint": 21,
+      "Third-party Library": 21,
+      "File Upload Feature": 12
+    },
+    "impact": {
+      "Shell/Command Execution": 790,
+      "unknown": 110,
+      "Full System Compromise": 85,
+      "Service Disruption (DoS)": 15,
+      "Data Exfiltration": 7,
+      "Internal Network Pivoting": 1
+    }
+  },
+  "key_insights": {
+    "most_common_vuln_type": "Command Injection",
+    "most_exploited_functionality": "Imports/Sharing",
+    "most_common_exec_context": "Server-side RCE"
+  },
+  "security_recommendations": [
+    "Always sanitize and validate all user-supplied input. Never trust user input.",
+    "Use parameterized queries and prepared statements to prevent injection attacks.",
+    "Avoid direct calls to OS commands. Use built-in language functions where possible.",
+    "Implement strong controls on file uploads: restrict file types, rename files on upload, and serve them from a non-executable domain.",
+    "Keep all libraries, frameworks, and server software up-to-date to patch known vulnerabilities.",
+    "Use secure, modern serialization formats and avoid deserializing untrusted data.",
+    "Apply the principle of least privilege. Run application processes with the minimum permissions necessary."
+  ]
+}
